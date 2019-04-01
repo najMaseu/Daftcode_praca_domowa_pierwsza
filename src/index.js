@@ -1,2 +1,1 @@
-import script from "./script.js"
-script()
+import "./scss/main.scss"

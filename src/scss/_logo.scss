@@ -1,0 +1,19 @@
+@import "vars";
+
+.logo {
+  position: absolute;
+  top: -50px;
+  left: 50px;
+  border: 3px solid black;
+  &__text {
+    font-family: "Dancing script";
+    font-size: 3em;
+    margin: 20px 40px;
+  }
+}
+@media (max-width:400px) {
+  .logo__text {
+    font-size: 2em;
+
+  }
+}

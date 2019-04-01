@@ -1,0 +1,20 @@
+.tile {
+  position: relative;
+  text-align: center;
+  width: 22em;
+  &__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    font-weight: 900;
+    color: white;
+  }
+  &:hover {
+    border: 5px solid $higlight-yellow;
+  }
+  img {
+    width: 100%;
+  }
+}

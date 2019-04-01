@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  margin: 2em 10%;
+  justify-content: space-between;
+  &__text {
+    color: black;
+    font-size: 1.5em;
+    a {
+      color: black;
+    }
+    span {
+      font-weight: 900;
+    }
+  }
+}
+@media (max-width:400px) {
+  .footer {
+    margin: 1em;
+    &__text{
+      font-size: 1em;
+    }
+  }
+}
